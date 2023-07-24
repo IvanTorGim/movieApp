@@ -1,0 +1,22 @@
+@import 'src/styles.css';
+div {
+    background-color: var(--color-amarillo);
+}
+ul {
+    background-color: var(--color-amarillo);
+    padding: 20px 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+li {
+    background-color: var(--color-amarillo);
+}
+a {
+    background-color: var(--color-amarillo);
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

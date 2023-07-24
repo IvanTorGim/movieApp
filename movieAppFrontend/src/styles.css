@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color-amarillo: #ffd60a;
+    --color-fondo: #252422;
+}
+
+*{
+    background-color: var(--color-fondo);
+    margin: 0;
+    font-family: monospace;
+}
