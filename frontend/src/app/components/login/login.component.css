@@ -1,0 +1,21 @@
+@import 'src/styles.css';
+.container {
+    margin: 30px auto;
+    width: 500px;
+    height: 500px;
+    background-color: var(--color-amarillo);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 20px;
+    font-size: 2rem;
+    
+}
+
+input {
+    border: 2px solid black;
+}

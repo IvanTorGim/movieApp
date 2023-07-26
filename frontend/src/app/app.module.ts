@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MyListComponent } from './components/my-list/my-list.component';
 import { MovieComponent } from './components/movie/movie.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MovieComponent } from './components/movie/movie.component';
     MoviesComponent,
     NavbarComponent,
     MyListComponent,
-    MovieComponent
+    MovieComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
